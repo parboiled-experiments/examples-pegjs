@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+    xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.parboiled.peg</groupId>
+    <artifactId>examples-pegjs</artifactId>
+    <version>0.0.1</version>
+    
+    <scm>
+        <url>git@github.com:parboiled-experiments/examples-pegjs.git</url>
+    </scm>
+    
+    <developers>
+        <developer>
+            <id>vinodpahuja</id>
+            <name>Vinod Pahuja</name>
+        </developer>
+    </developers>
+    
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+    
+    <dependencies>
+
+        <dependency>
+            <groupId>org.parboiled</groupId>
+            <artifactId>parboiled-json</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.parboiled.peg</groupId>
+            <artifactId>parboiled-pegjs</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+
+    </dependencies>
+
+</project>
